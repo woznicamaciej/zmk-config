@@ -49,13 +49,7 @@
             >;
         };
 
-        lower {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
+        left {
             bindings = <
 &kp TAB    &kp K_MUTE       &kp SINGLE_QUOTE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp C_PLAY_PAUSE    &trans   &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp PLUS               &kp BSPC
 &kp LCTRL  &kp C_VOLUME_UP  &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp C_NEXT          &trans   &kp DOLLAR       &kp PERCENT   &kp CARET             &trans                 &trans
@@ -64,7 +58,7 @@
             >;
         };
 
-        raise {
+        right {
             bindings = <
 &kp TAB    &trans  &trans    &kp UP_ARROW   &trans            &kp C_BRIGHTNESS_INC    &kp LESS_THAN     &kp N7  &kp N8    &kp N9  &kp EQUAL  &kp BSPC
 &kp LCTRL  &trans  &kp LEFT  &kp DOWN       &kp RIGHT         &kp C_BRIGHTNESS_DEC    &kp GREATER_THAN  &kp N4  &kp N5    &kp N6  &kp COMMA  &trans
