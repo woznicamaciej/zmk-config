@@ -69,7 +69,7 @@
 
         right {
             bindings = <
-&kp TAB    &none  &trans    &kp UP_ARROW   &trans            &kp C_BRIGHTNESS_INC    &kp SINGLE_QUOTE   &kp N7                  &kp N8              &kp N9                  &kp EQUAL               &kp BSPC
+&kp TAB    &none  &none    &kp UP_ARROW    &none           &kp C_BRIGHTNESS_INC    &kp SINGLE_QUOTE   &kp N7                  &kp N8              &kp N9                  &kp EQUAL               &kp BSPC
 &kp LCTRL  &none  &kp LEFT  &kp DOWN       &kp RIGHT         &kp C_BRIGHTNESS_DEC    &kp DOUBLE_QUOTES  &hmr RIGHT_COMMAND N4   &hmr RIGHT_ALT N5   &hmr RIGHT_CONTROL N6   &hmr RIGHT_SHIFT COMMA  &none
 &kp LSHFT  &none  &none     &kp LESS_THAN  &kp GREATER_THAN  &none                   &kp GRAVE          &kp N1                  &kp N2              &kp N3                  &kp N0                  &kp ESC
                             &kp LGUI       &mo 3             &kp ENTER               &kp SPACE          &trans  &kp BSPC
@@ -79,7 +79,7 @@
         system {
             bindings = <
 &kp F1          &kp F2         &kp F3         &kp F4         &kp F5         &kp F6           &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&bt BT_CLR      &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &none   &none   &trans  &trans   &trans   &trans
+&bt BT_CLR      &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &none   &none   &none  &trans   &trans   &trans
 &bt BT_CLR_ALL  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &trans  &trans  &trans  &trans   &trans   &kp C_POWER
                                               &trans         &trans         &trans           &trans  &trans  &trans
             >;
