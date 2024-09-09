@@ -16,10 +16,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
             require-prior-idle-ms = <200>;
-            flavor = "balanced";
+            flavor = "hold-preferred";
         };
 
         hmr: homewrow_mods_right {
@@ -28,10 +28,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
             require-prior-idle-ms = <200>;
-            flavor = "balanced";
+            flavor = "hold-preferred";
         };
 
         Thumbs_layer: Thumbs_layer {
@@ -69,7 +69,7 @@
 
         right {
             bindings = <
-&kp TAB    &none  &trans    &kp UP_ARROW   &trans            &kp C_BRIGHTNESS_INC    &kp SINGLE_QUOTE   &kp N7                 &kp N8             &kp N9                 &kp EQUAL               &kp BSPC
+&kp TAB    &none  &none     &kp UP_ARROW   &none             &kp C_BRIGHTNESS_INC    &kp SINGLE_QUOTE   &kp N7                 &kp N8             &kp N9                 &kp EQUAL               &kp BSPC
 &kp LCTRL  &none  &kp LEFT  &kp DOWN       &kp RIGHT         &kp C_BRIGHTNESS_DEC    &kp DOUBLE_QUOTES  &hmr RIGHT_COMMAND N4  &hmr RIGHT_ALT N5  &hmr RIGHT_CONTROL N6  &hmr RIGHT_SHIFT COMMA  &none
 &kp LSHFT  &none  &none     &kp LESS_THAN  &kp GREATER_THAN  &none                   &kp GRAVE          &kp N1                 &kp N2             &kp N3                 &kp N0                  &kp ESC
                             &kp LGUI       &mo 3             &kp ENTER               &kp SPACE          &trans                 &kp BSPC
